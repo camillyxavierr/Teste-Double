@@ -1,0 +1,24 @@
+ESTRUTURA CORRETA: MAIN SEPARADO DOS TESTES
+
+src/main/java/org/example/
+  DummyExemplo.java
+  StubExemplo.java
+  FakeExemplo.java
+  SpyExemplo.java
+  MockExemplo.java
+
+src/test/java/org/example/
+  DummyTeste.java
+  StubTeste.java
+  FakeTeste.java
+  SpyTeste.java
+  MockTeste.java
+
+Cada conceito tem sua classe principal em src/main e sua classe de teste separada
+em src/test, no estilo do projeto Maven/IntelliJ enviado.
+
+Para usar:
+1. Extraia o ZIP.
+2. Abra a pasta TestesDoubles_EstruturaMainETeste no IntelliJ IDEA.
+3. Aguarde o Maven carregar as dependências.
+4. Abra qualquer classe em src/test/java e clique no triângulo verde do teste.
